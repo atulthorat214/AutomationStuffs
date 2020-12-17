@@ -57,4 +57,12 @@ public class AppTest
 				.when().post("maps/api/place/add/json").then().log().all().assertThat().statusCode(200);
 
 	}
+	
+	@Test
+	public void testggg()
+	
+	{
+		
+		System.out.println("This is My demo test");
+	}
 }
